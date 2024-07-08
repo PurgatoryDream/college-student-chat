@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: rgb(207, 236, 207);
+    margin: 0;
+}
+
+#file_section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#drop_zone {
+    flex: 1;
+    border: 3px dashed #0080ff;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#drop_zone.active {
+    background: #f2f2f2;
+    border: 2px dashed #0f0;
+    transition: background 0.3s, border 0.3s;
+}
+
+#file_list {
+    flex: 1;
+    border: 1px solid #0080ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#file_select {
+    width: 100%;
+    height: calc(100% - 40px); /* Height minus twice the padding */
+    margin-bottom: 10px;
+    border: 1px solid #0080ff;
+}
+
+#chat {
+    flex: 1;
+    border: 1px solid #0080ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 40px);  /* Height minus twice the padding */
+    margin-left: 10px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    clear: both;
+}
+
+.message.outgoing {
+    background-color: #6ec728;
+    align-self: flex-end;
+    float: right;
+    margin-left: 30%;
+}
+
+.message.incoming {
+    background-color: #ffffff;
+    align-self: flex-start;
+    float: left;
+    margin-right: 30%;
+}
+
+#chat_output {
+    height: 85%;
+    border: 1px solid #0080ff;
+    padding: 10px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat_input {
+    height: 15%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#send_button {
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#send_button:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+#professor_view {
+    display: flex;
+    height: 100%;
+}
+
+#conversations_list {
+    flex: 1;
+    overflow: auto;
+}
+
+#selected_conversation {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #ccc;
+    padding: 10px;
+}

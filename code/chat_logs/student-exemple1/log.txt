@@ -1,0 +1,12 @@
+Q: Quines són les conclusions que extreiem sobre l'ús responsable de la Intel·ligència Artificial?
+A: Les conclusions que es poden extreure sobre l'ús de la intel·ligència artificial (IA) de forma responsable són diverses. En primer lloc, es destaca la necessitat de comprendre que la IA és una eina que pot cometre errors i que potser no és tan bona com nosaltres per a certes tasques, com ara l'escriptura. Com a usuaris, hem de revisar els resultats que obtenim de la IA i assegurar-nos que no estem usant la tecnologia de manera irresponsable.
+
+En segon lloc, hi ha greus preocupacions ètiques quant a l'ús de dades massives per entrenar models d'IA. En molts casos, aquestes dades poden contenir informació amb drets d'autor, fent que l'ús d'aquestes dades sigui problemàtic i potencialment il·legal. Alguns creuen que això està infringint els drets d'autor, mentre que altres creuen que és un ús just de les dades.
+
+Per acabar, existeix la preocupació que l'IA pugui ser utilitzada per substituir els humans, i això és particularment rellevant quan es tracta de l'IA de generació d'imatges.
+
+Preguntes per a la classe:
+1. Com podem garantir un ús responsable de la IA?
+2. Quines són les implicacions ètiques de l'ús de dades amb drets d'autor per entrenar models d'IA?
+3. Què podem fer per assegurar-nos que els drets d'autor siguin respectats en el procés d'entrenament de la IA?
+4. Com podem prevenir que l'

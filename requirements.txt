@@ -1,0 +1,10 @@
+Flask
+flask-cors
+Werkzeug
+openai
+python-docx
+PyPDF2
+moviepy
+tiktoken
+langchain
+weaviate-client

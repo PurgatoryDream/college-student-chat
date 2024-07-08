@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning Assistant</title>
+    <link rel="stylesheet" type="text/css" href="/static/login.css">
+</head>
+<body>
+    <div id="form_container">
+        <div id="login_form">
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                <input type="text" name="username" placeholder="Username">
+                <input type="password" name="password" placeholder="Password">
+                <input class="btn" type="submit" value="Login">
+            </form>
+            <button id="show_register" class="btn">Make a new Account</button>
+        </div>
+
+        <div id="register_form" style="display: none;">
+            <h2>Register</h2>
+            <form action="/register" method="post">
+                <input type="text" name="username" placeholder="Username">
+                <input type="password" name="password" placeholder="Password">
+                <select name="role">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                </select>
+                <input class="btn" type="submit" value="Register">
+            </form>
+            <button id="show_login" class="btn">Go to Login</button>
+        </div>
+    </div>
+
+    <script src="/static/login.js"></script>
+</body>
+</html>
